@@ -4,10 +4,10 @@ import {createStore} from 'redux';
 
 
 export function booksReducers(state={books:[{ id: 1,
-  title:'book title!!!!!!!!!!!!!!!!!!1',
-  author:'author name',
+  title:'War and Peace',
+  author:'Tolstoy',
 description:'description of book',
-price:10},
+price:'3$'},
 { id: 2,
   title:'second book title',
   author:'author name',
