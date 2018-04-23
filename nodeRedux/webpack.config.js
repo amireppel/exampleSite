@@ -9,7 +9,7 @@ module.exports={
   },
       watch:true,
       module:{
-      loaders:[
+      rules:[
         {
           test:/\.js$/,
           exclude:/node_modules/,
