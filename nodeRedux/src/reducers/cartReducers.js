@@ -8,7 +8,7 @@ export function cartReducers(state={cart:[]}, action){
     case  'ADD_TO_CART':
   //  let books = state.concat(action.payload);
     //return    books;
-    console.log('pay load is : ',action.payload)
+    console.log('pay  bdddlab load is : ',action.payload)
     return {cart:[...state.cart,...action.payload]}
     break;
 
